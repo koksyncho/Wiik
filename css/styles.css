@@ -19,13 +19,16 @@ a {
 
 /* Screenshot section */
 
+.screenshots {
+	background-color: #ededed;
+}
+
 .screenshot {
 	width: 70%;
 	height: auto;
 }
 
 .screenshot-title {
-	background-color: #ededed;
 	padding: 1% 1%;
 	margin-bottom: 2%;
 }
