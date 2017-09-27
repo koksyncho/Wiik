@@ -1,0 +1,41 @@
+.screenshot {
+	width: 70%;
+	height: auto;
+}
+
+.arrow-left {
+	float: left;
+
+	margin-top: 20%;
+	margin-left: 10%
+}
+
+.arrow-right {
+	float: right;
+
+	margin-top: 20%;
+	margin-right: 10%
+}
+
+.about {
+	overflow: auto;
+	margin-bottom: 50px;
+}
+
+.info {
+	margin-bottom: 50px;
+}
+
+td {
+	text-align: justify;
+}
+
+table {
+	table-layout: fixed;
+	width: 98%;
+	border-spacing: 80px 0px;
+}
+
+.ctab {
+	text-align: center;
+}
