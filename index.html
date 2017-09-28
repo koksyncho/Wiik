@@ -1,95 +1,125 @@
 <!doctype html>
-
 <html>
-
 	<head>
-	  	<meta charset="UTF-8"/>
+		<script src="https://use.fontawesome.com/37d989ed78.js"></script>
+		<meta charset="UTF-8"/>
 		<title>Kiwi TCMS</title>
 		<meta name="viewport" content="width=device-width,initial-scale=1">
-	  	<link rel="stylesheet" type="text/css" href="css/styles.css">
-
+		<link href="style/style.css" rel="stylesheet" type="text/css"/>
+    
 		<!-- Font Awesome -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
-
 	<body>
-	 
-		<section class="navigation">
-		</section>
+		<!-- Nav -->
+		<nav class="col-12">
+			<ul class="topnav">
+				<li><img src="images/kiwi-icon.png" name="logo"></li>
 
-		<section class="header">
-		</section>
-
-		<section class="about">
-
-			<div class="about-title">
-				<h1> About KiwiTCMS </h1>
+				<li class="right"><input type="text" name="search" placeholder="Search box"></li>
+			  	<li class="right"><a href="#support">Blog</a></li>
+			  	<li class="right"><a href="#support">Support</a></li>
+			  	<li class="right"><a href="#community">Community</a></li>
+			  	<li class="right"><a href="#documentation">Documentation</a></li>
+			  	<li class="right"><a class="active" href="#get-started">Get Started</a></li>
+			</ul>
+		</nav>
+		<!-- Header -->
+		<header class="col-12 header">
+			<div class="col-12">
+				<h1 class="top-header">Kiwi TCMS</h1>
+				<h2 class="top-subheader">Kiwi TCMS the leading open source test case management system</h2>
 			</div>
+			<div class="col-12 header-subcontent">
+				<div class="col-6">
+					<ul class="header-list">
+						<li>Efficiently manage test cases, plans and runs</li>
+						<li>Improve testing productivity significantly</li>
+						<li>Integrates with popular issue trackers</li>
+						<li>External API interface</li>
+					</ul>
+					<p class="header-btns">
+						<a href="#" class="action-btn">Get Started</a>
+						<a href="#" class="action-btn">See Features</a>
+					</p>
+				</div>
+				<div class="col-6">
+					<div class="header-img"></div>
+				</div>
+			</div>
+		</header>
 
+		<!-- About Section -->
+		<header class="col-12 about">
+			<div class="col-12">
+				<h1 class="top-about"> About Kiwi TCMS</h1>
+			</div>
 			<!-- Info Columns (Filled with Lorem Ipsum for now) -->
-			<div align="center" class="info">
-				<table>
-				  	<tr>
-				    	<th> Lorem Ipsum Door Sit </th>
-				    	<th> Lorem Ipsum Door Sit </th>
-				    	<th> Lorem Ipsum Door Sit </th>
-				    	<th> Lorem Ipsum Door Sit </th>
-				  	</tr>
+			<div class="about-subcontent">
+				<div align="center" class="col-12">
+					<table>
+					  	<tr>
+					    	<th> Lorem Ipsum Door Sit </th>
+					    	<th> Lorem Ipsum Door Sit </th>
+					    	<th> Lorem Ipsum Door Sit </th>
+					    	<th> Lorem Ipsum Door Sit </th>
+					  	</tr>
 
-				  	<tr>
-				    	<td>
-				    		Pellentesque ullamcorper nunc quis vulputate molestie. 
-				    		Cras blandit sapien rutrum, aliquam dui vel, tempor leo. 
-				    		Integer pharetra pre
-				    	</td>
+					  	<tr>
+					    	<td>
+					    		Pellentesque ullamcorper nunc quis vulputate molestie. 
+					    		Cras blandit sapien rutrum, aliquam dui vel, tempor leo. 
+					    		Integer pharetra pre
+					    	</td>
 
-				    	<td>
-				    		Pellentesque ullamcorper nunc quis vulputate molestie. 
-				    		Cras blandit sapien rutrum, aliquam dui vel, tempor leo. 
-				    		Integer pharetra pretiu
-				    	</td>
+					    	<td>
+					    		Pellentesque ullamcorper nunc quis vulputate molestie. 
+					    		Cras blandit sapien rutrum, aliquam dui vel, tempor leo. 
+					    		Integer pharetra pretiu
+					    	</td>
 
-				    	<td>
-				    		Pellentesque ullamcorper nunc quis vulputate molestie. 
-				    		Cras blandit sapien rutrum, aliquam dui vel, tempor leo. 
-				    		Integer pharetra pretium 
-				    	</td>
+					    	<td>
+					    		Pellentesque ullamcorper nunc quis vulputate molestie. 
+					    		Cras blandit sapien rutrum, aliquam dui vel, tempor leo. 
+					    		Integer pharetra pretium 
+					    	</td>
 
-				    	<td>
-				    		Pellentesque ullamcorper nunc quis vulputate molestie. 
-				    		Cras blandit sapien rutrum, aliquam dui vel, tempor leo. 
-				    		Integer pharetra pretiu
-				    	</td>
-				  	</tr>
-				</table>
+					    	<td>
+					    		Pellentesque ullamcorper nunc quis vulputate molestie. 
+					    		Cras blandit sapien rutrum, aliquam dui vel, tempor leo. 
+					    		Integer pharetra pretiu
+					    	</td>
+					  	</tr>
+					</table>
+				</div>
+
+				<!-- Call-To-Action Buttons -->
+				<div align="center" class="cta-buttons">
+					<table>
+						<tr>
+					    	<td class="ctab">
+					    		<a href="#"> <i class="fa fa-arrow-circle-up"></i> <h4> Get Started </h4> </a>
+					    	</td>
+
+					    	<td class="ctab"> 
+					    		<a href="#"> <i class="fa fa-file-text"></i> <h4> Documentation </h4> </a>
+					    	</td>
+
+					    	<td class="ctab">
+					    		<a href="#"> <i class="fa fa-group"></i> <h4> Community </h4> </a>
+					    	</td>
+
+					    	<td class="ctab">
+					    		<a href="#"> <i class="fa fa-headphones"></i> <h4> Support </h4> </a>
+					    	</td>
+						 </tr>
+					 </table>
+				</div>
 			</div>
+		</header>
 
-			<!-- Call-To-Action Buttons -->
-			<div align="center" class="cta-buttons">
-				<table>
-					<tr>
-				    	<td class="ctab">
-				    		<a href="#"> &#xf0aa; <h4> Get Started </h4> </a>
-				    	</td>
-
-				    	<td class="ctab"> 
-				    		<a href="#"> &#xf15c; <h4> Documentation </h4> </a>
-				    	</td>
-
-				    	<td class="ctab">
-				    		<a href="#"> &#xf0c0; <h4> Community </h4> </a>
-				    	</td>
-
-				    	<td class="ctab">
-				    		<a href="#"> &#xf025; <h4> Support </h4> </a>
-				    	</td>
-					 </tr>
-				 </table>
-			</div>
-
-		</section>
-
-		<section class="screenshots">
+		<!-- Screenshots Section -->
+		<header class="screenshots">
 
 			<div class="screenshot-title">
 				<h1> Screenshots </h1>
@@ -99,16 +129,31 @@
 				<h3> Test Run for Firefox RHEL6.5 (Desktop) </h3>
 				<p> The Test Case Managment System in action. </p>
 
-				<a href="#" class="arrow-left"> &#xf060; </a>
-				<img src="img/screenshot.png" class="screenshot">
-				<a href="#" class="arrow-right"> &#xf061; </a>
+				<a href="#" class="arrow-left"> <i class="fa fa-arrow-left"></i> </a>
+				<img src="images/screenshot.png" class="screenshot">
+				<a href="#" class="arrow-right"> <i class="fa fa-arrow-right"></i> </a>
 			</div>
 
-		</section>
-
-		<section class="footer">
-		</section>
-
+		</header>
+		<!-- Footer -->
+		<footer class="col-12 footer">
+			<div class="col-10">
+				<a href="#" class="col-2">
+					<img class="footer-logo" src="images/mrsenko-icon.png" alt="" width="100">
+				</a>
+				<div class="col-8 footer-copyright">
+					<p>Kiwi TCMS is a project sponsored by <a href="http://mrsenko.com/">Mr. Senko.</a></p>
+					<p>
+						Except where otherwise noted, content on this site is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license.</a>
+					</p>
+				</div>	
+			</div>
+			<div class="col-2">
+				<ul class="footer-sociallinks">
+					<li><a href="https://twitter.com/KiwiTCMS">&#xf099;</a></li>
+					<li><a href="https://github.com/kiwitcms/Kiwi">&#xf09b;</a></li>
+				</ul>
+			</div>
+		</footer>
 	</body>
-
 </html>

@@ -12,10 +12,12 @@ html{
 
 a{
 	text-decoration: none;
+	color: #545454;
 }
 
 body{
 	background-color: #fafafa;
+	color: #2b2b2b;
 	font-size: 1.8rem;
 }
 
@@ -35,7 +37,6 @@ body{
 .col-12 {width: 100%;}
 
 [class|='col']{
-	position: relative;
 	float: left;
 	min-height: 1px;
 	box-sizing: border-box;
@@ -134,88 +135,106 @@ body{
 	color: #212121;
 }
 
-.action-btn-small p{
-	font-family: FontAwesome;
-	font-size: 3rem;
-	line-height: 1.4em;
-	color: #212121;
-}
+/* About */
 
-.action-btn-small h4{
-	line-height: 1.4em;
-}
-
-/************/
-/* Ivo CSS */
-/**********/
-
-/* About Section */
-
-.about {
-	padding: 4% 0;
-}
-
-.about-heading {
-	text-align: center;
-	padding: 2% 0;
-}
-
-.info {
+.about{
+	overflow: auto;
 	margin-bottom: 50px;
 }
 
-.about-table{
+.top-about{
+	background-color: #ededed;
+	padding: 5% 10%;
+}
+
+td{
+	text-align: justify;
+}
+
+table{
 	table-layout: fixed;
 	width: 98%;
 	border-spacing: 80px 0px;
 }
 
-.about-table td {
+.ctab{
 	text-align: center;
 }
 
-/* Screenshots Section */
+.about-subcontent{
+	padding: 10%;
+	margin-top: 5%;
+	background-color: #FFFFFF;
+}
 
-.screenshots{
-	padding: 4% 0;
+/* Screenshot section */
+
+.screenshots {
+	background-color: #ededed;
+	padding-bottom: 50px;
 }
 
 .screenshot {
-	display: block;
-	width: auto;
-	height: 500px;
-	margin: auto;
+	width: 70%;
+	height: auto;
 }
 
-.screenshot-heading {
-	text-align: center;
-	padding: 2% 0;
-}
-
-.screenshot-title{
-	text-align: center;
-	padding: 1% 0;
-	line-height: 1.4em;
+.screenshot-title {
+	padding: 5% 10%;
+	margin-bottom: 2%;
 }
 
 .arrow-left {
-	display: block;
-	position: relative;
-	left: 0;
-	top: 250px;
-	width: 100%;
-	line-height: 50px;
-	text-align: center;
-	font-family: FontAwesome;
+	float: left;
+
+	margin-top: 20%;
+	margin-left: 10%
 }
 
 .arrow-right {
-	display: block;
-	position: relative;
-	left: 0;
-	top: 250px;
-	width: 100%;
-	line-height: 50px;
-	text-align: center;
-	font-family: FontAwesome;
+	float: right;
+
+	margin-top: 20%;
+	margin-right: 10%
+}
+
+/* Navigation */
+ul.topnav {
+	list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #cccccc;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li [name="search"] {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+ul.topnav li img {
+    display: block;
+    padding: 0px 16px;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #aaaaaa;}
+
+ul.topnav li a.active {background-color: #888888;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
 }
