@@ -132,3 +132,107 @@ body{
 	line-height: 50px;
 	color: #212121;
 }
+
+/* About */
+
+.about{
+	overflow: auto;
+	margin-bottom: 50px;
+}
+
+.top-about{
+	background-color: #ededed;
+	padding: 5% 10%;
+}
+
+td{
+	text-align: justify;
+}
+
+table{
+	table-layout: fixed;
+	width: 98%;
+	border-spacing: 80px 0px;
+}
+
+.ctab{
+	text-align: center;
+}
+
+.about-subcontent{
+	padding: 10%;
+	margin-top: 5%;
+	background-color: #FFFFFF;
+}
+
+/* Screenshot section */
+
+.screenshots {
+	background-color: #ededed;
+	padding-bottom: 50px;
+}
+
+.screenshot {
+	width: 70%;
+	height: auto;
+}
+
+.screenshot-title {
+	padding: 5% 10%;
+	margin-bottom: 2%;
+}
+
+.arrow-left {
+	float: left;
+
+	margin-top: 20%;
+	margin-left: 10%
+}
+
+.arrow-right {
+	float: right;
+
+	margin-top: 20%;
+	margin-right: 10%
+}
+
+/* Navigation */
+ul.topnav {
+	list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #cccccc;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li [name="search"] {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+ul.topnav li img {
+    display: block;
+    padding: 0px 16px;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #aaaaaa;}
+
+ul.topnav li a.active {background-color: #888888;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
