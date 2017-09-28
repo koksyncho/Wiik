@@ -35,6 +35,7 @@ body{
 .col-12 {width: 100%;}
 
 [class|='col']{
+	position: relative;
 	float: left;
 	min-height: 1px;
 	box-sizing: border-box;
@@ -133,67 +134,90 @@ body{
 	color: #212121;
 }
 
-/* About */
+.action-btn-small p{
+	font-family: FontAwesome;
+	font-size: 3rem;
+	line-height: 1.4em;
+	color: #212121;
+}
 
-.about{
-	overflow: auto;
+.action-btn-small h4{
+	line-height: 1.4em;
+}
+
+/************/
+/* Ivo CSS */
+/**********/
+
+/* About Section */
+
+.about {
+	padding: 4% 0;
+}
+
+.about-heading {
+	text-align: center;
+	padding: 2% 0;
+}
+
+.info {
 	margin-bottom: 50px;
 }
 
-.top-about{
-	background-color: #ededed;
-	padding: 5% 10%;
-}
-
-td{
-	text-align: justify;
-}
-
-table{
+.about-table{
 	table-layout: fixed;
 	width: 98%;
 	border-spacing: 80px 0px;
 }
 
-.ctab{
+.about-table td {
 	text-align: center;
 }
 
-.about-subcontent{
-	padding: 10%;
-	margin-top: 5%;
-	background-color: #FFFFFF;
-}
+/* Screenshots Section */
 
-/* Screenshot section */
-
-.screenshots {
-	background-color: #ededed;
-	padding-bottom: 50px;
+.screenshots{
+	padding: 4% 0;
 }
 
 .screenshot {
-	width: 70%;
-	height: auto;
+	display: block;
+	width: auto;
+	height: 500px;
+	margin: auto;
 }
 
-.screenshot-title {
-	padding: 5% 10%;
-	margin-bottom: 2%;
+.screenshot-heading {
+	text-align: center;
+	padding: 2% 0;
+}
+
+.screenshot-title{
+	text-align: center;
+	padding: 1% 0;
+	line-height: 1.4em;
 }
 
 .arrow-left {
-	float: left;
-
-	margin-top: 20%;
-	margin-left: 10%
+	display: block;
+	position: relative;
+	left: 0;
+	top: 250px;
+	width: 100%;
+	line-height: 50px;
+	text-align: center;
+	font-family: FontAwesome;
 }
 
 .arrow-right {
-	float: right;
-
-	margin-top: 20%;
-	margin-right: 10%
+	display: block;
+	position: relative;
+	left: 0;
+	top: 250px;
+	width: 100%;
+	line-height: 50px;
+	text-align: center;
+	font-family: FontAwesome;
 }
 
 /* Navigation */
