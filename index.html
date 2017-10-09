@@ -2,9 +2,16 @@
 <html>
 	<head>
 		<meta charset="UTF-8"/>
-		<title>Kiwi TCMS</title>
+		<title>Kiwi TCMS - the leading open source test case management system</title>
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<link href="style/style.css" rel="stylesheet" type="text/css"/>
+		<link href="style/colors-light.css" rel="stylesheet" type="text/css"/>
+		<!-- Jquery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!-- Other Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
 		<!-- Font Awesome -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
@@ -17,119 +24,125 @@
 				<li class="right"><input type="text" name="search" placeholder="Search box"></li>
 			  	<li class="right"><a href="#support">Blog</a></li>
 			  	<li class="right"><a href="#support">Support</a></li>
-			  	<li class="right"><a href="#community">Community</a></li>
-			  	<li class="right"><a href="#documentation">Documentation</a></li>
+			  	<li class="right"><a href="https://github.com/kiwitcms/Kiwi">Community</a></li>
+			  	<li class="right"><a href="http://kiwitcms.readthedocs.io">Documentation</a></li>
 			  	<li class="right"><a class="active" href="#get-started">Get Started</a></li>
 			</ul>
 		</nav>
 		<!-- Header -->
 		<header class="col-12 header">
 			<div class="col-12">
-				<h1 class="top-header">Kiwi TCMS</h1>
-				<h2 class="top-subheader">Kiwi TCMS the leading open source test case management system</h2>
-			</div>
-			<div class="col-12 header-subcontent">
-				<div class="col-6">
+				<div class="col-5">
+					<h1 class="top-header">Kiwi TCMS</h1>
+					<h2 class="top-subheader">the leading open source</h2>
+					<h2 class="top-subheader">test case management system</h2>
+
 					<ul class="header-list">
 						<li>Efficiently manage test cases, plans and runs</li>
-						<li>Improve testing productivity significantly</li>
+						<li>Improve testing productivity &amp; reporting</li>
 						<li>Integrates with popular issue trackers</li>
 						<li>External API interface</li>
+						<li>GPL 2 licensed</li>
 					</ul>
 					<p class="header-btns">
 						<a href="#" class="action-btn">Get Started</a>
 						<a href="#" class="action-btn">See Features</a>
 					</p>
 				</div>
-				<div class="col-6">
+				<div class="col-7">
 					<div class="header-img"></div>
 				</div>
 			</div>
 		</header>
 		<!-- About Section -->
 		<section class="col-12 about">
-			<h1 class="about-heading">About KiwiTCMS</h1>
-			<!-- About Texts -->
-			<table class="about-table">
-				  <tr>
-				    <th class="about-info-panel"> Lorem Ipsum Door Sit </th>
-				    <th class="about-info-panel"> Lorem Ipsum Door Sit </th>
-				    <th class="about-info-panel"> Lorem Ipsum Door Sit </th>
-				    <th class="about-info-panel"> Lorem Ipsum Door Sit </th>
-				  </tr>
-				  <tr>
-				    <td class="about-info-panel">
-				    	Pellentesque ullamcorper nunc quis vulputate molestie. 
-				    	Cras blandit sapien rutrum, aliquam dui vel, tempor leo. 
-				    	Integer pharetra pre
-				    </td>
-				    <td class="about-info-panel">
-				    	Pellentesque ullamcorper nunc quis vulputate molestie. 
-				    	Cras blandit sapien rutrum, aliquam dui vel, tempor leo. 
-				    	Integer pharetra pretiu
-				    </td>
-				    <td class="about-info-panel">
-				    	Pellentesque ullamcorper nunc quis vulputate molestie. 
-				    	Cras blandit sapien rutrum, aliquam dui vel, tempor leo. 
-				    	Integer pharetra pretium 
-				    </td>
-				    <td class="about-info-panel">
-				    	Pellentesque ullamcorper nunc quis vulputate molestie. 
-				    	Cras blandit sapien rutrum, aliquam dui vel, tempor leo. 
-				    	Integer pharetra pretiu
-				    </td>
-				  </tr>
-				<!-- Call to aaction btns -->
-				<tr>
-					<td>
-						<a href="#" class="action-btn-small">
-							<p>&#xf0aa;</p>
-							<h4>Get Started</h4>
-						</a>
-					</td>
-					<td>
-						<a href="#" class="action-btn-small">
-							<p>&#xf15c;</p>
-							<h4>Documentation</h4>
-						</a>
-					</td>
-					<td>
-						<a href="#" class="action-btn-small">
-							<p>&#xf0c0;</p>
-							<h4>Community</h4>
-						</a>
-					</td>
-					<td>
-						<a href="#" class="action-btn-small">
-							<p>&#xf025;</p>
-							<h4>Support</h4>
-						</a>
-					</td>
-				</tr>
-			</table>
+			
+			<div class="about-intro">
+				<p class="col-12">
+					Open source test case management system, with a lot of great features, such as
+	            </p>
+				<p class="col-12">
+					bug tracker integration, fast search, powerful access control and external API.
+				</p>
+			</div>
+
+			<div class="rTable">
+				<div class="rTableBody">
+					<div class="rTableRow">
+						<div class="rTableHead">Everyday testing</div>
+						<div class="rTableHead">Test management</div>
+						<div class="rTableHead">Reporting</div>
+						<div class="rTableHead">Integration</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">Use the dashboard to see pending work. Execute tests, mark results and report bugs. Collect automation results!</div>
+						<div class="rTableCell">Define test plans and cases, track progress and assign work across multiple teams. Perform peer reviews.</div>
+						<div class="rTableCell">See who's doing what and provide status report to stakeholders. Centralize your acceptance books!</div>
+						<div class="rTableCell">Integrated with Bugzilla, JIRA and GitHub. The API interface provides full acces so you can get creative!</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableHead">Django &amp; Python 3</div>
+						<div class="rTableHead">Patternfly &amp; jQuery</div>
+						<div class="rTableHead">Docker</div>
+						<div class="rTableHead">Tested</div>
+					</div>
+					<div class="rTableRow">
+						<div class="rTableCell">We're running the latest Django 1.11.x version on Python 3.5!</div>
+						<div class="rTableCell">The UI is created using Patternfly and uses a bit of jQuery!</div>
+						<div class="rTableCell">Based on a CentOS 7 Docker image and easy to start with docker compose.</div>
+						<div class="rTableCell">We've got Django and Selenium based tests running in Travis CI!</div>
+					</div>
+					<!-- Call to action btns -->
+					<div class="rTableRow">
+						<div class="rTableCell">
+							<a href="#" class="action-btn-small">
+								<p><i class="fa fa-arrow-circle-up fa-3x"></i></p>
+								<h4>Get Started</h4>
+							</a>
+						</div>
+						<div class="rTableCell">
+							<a href="http://kiwitcms.readthedocs.io" class="action-btn-small">
+								<p><i class="fa fa-file-text fa-3x"></i></p>
+								<h4>Documentation</h4>
+							</a>
+						</div>
+						<div class="rTableCell">
+							<a href="http://kiwitcms.readthedocs.io/en/latest/" class="action-btn-small">
+								<p><i class="fa fa-users fa-3x"></i></p>
+								<h4>Community</h4>
+							</a>
+						</div>
+						<div class="rTableCell">
+							<a href="#" class="action-btn-small">
+								<p><i class="fa fa-headphones fa-3x"></i></p>
+								<h4>Support</h4>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
 		<!-- Screenshots Section -->
 		<section class="col-12 screenshots">
-			<h1 class="screenshot-heading">Screenshots</h1>
 			<div class="col-12 screenshot-title">
 				<h3>Test Run for Firefox RHEL6.5 (Desktop)</h3>
 				<p>The Test Case Managment System in action.</p>
 			</div>
-			<div class="col-2">
-				<a href="#" class="arrow-left">&#xf060;</a>
+			<div class="col-2 screenshot_switch_arrow" id="left-arrow">
+				<div class="arrow-left"><i class="fa fa-arrow-left fa-5x"></i></div>
 			</div>
 			<div class="col-8">
-				<img src="images/screenshot.png" class="screenshot">
+				<img id="screenshot_img_id" src="images/screenshot_1.png" class="screenshot">
 			</div>
-			<div class="col-2">
-				<a href="#" class="arrow-right">&#xf061;</a>
+			<div class="col-2 screenshot_switch_arrow" id="right-arrow">
+				<div class="arrow-right"><i class="fa fa-arrow-right fa-5x"></i></div>
 			</div>
 		</section>
 		<!-- Footer -->
 		<footer class="col-12 footer">
 			<div class="col-10">
 				<a href="#">
-					<img class="footer-logo" src="images/mrsenko-icon.png" alt="" width="100">
+					<img class="footer-logo" src="images/logo.png" alt="" width="100">
 				</a>
 				<div class="footer-copyright">
 					<p>Kiwi TCMS is a project sponsored by <a href="http://mrsenko.com/">Mr. Senko.</a></p>
@@ -140,10 +153,37 @@
 			</div>
 			<div class="col-2">
 				<ul class="footer-sociallinks">
-					<li><a href="https://twitter.com/KiwiTCMS">&#xf099;</a></li>
-					<li><a href="https://github.com/kiwitcms/Kiwi">&#xf09b;</a></li>
+					<li><a href="https://twitter.com/KiwiTCMS"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="https://github.com/kiwitcms/Kiwi"><i class="fa fa-github"></i></a></li>
 				</ul>
 			</div>
 		</footer>
+
+		<script type="text/javascript">
+			
+			//Screenshot image change
+			$('.screenshot_switch_arrow').click(function() {
+				var firstScreenshotNumber = 1;
+				var lastScreenshotNumber = 3;
+				var screenshotBaseName = "images/screenshot_";
+				var screenshotFormat = ".png";
+				var currentScreenshotNumberAndFormat = $('#screenshot_img_id').attr('src').split('_')[1];
+				var currentScreenshotNumber = currentScreenshotNumberAndFormat.split('.')[0];
+				
+				var changedScreenshotNumber = currentScreenshotNumber;
+				if ($(this).attr('id') == "right-arrow") {
+					if (currentScreenshotNumber < lastScreenshotNumber) {
+						changedScreenshotNumber++;
+					}
+				}
+				if ($(this).attr('id') == "left-arrow") {
+					if (currentScreenshotNumber > firstScreenshotNumber) {
+						changedScreenshotNumber--;
+					}
+				}
+
+				$('#screenshot_img_id').attr('src',screenshotBaseName + changedScreenshotNumber + screenshotFormat); 
+			});
+		</script>
 	</body>
 </html>
