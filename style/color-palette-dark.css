@@ -1,0 +1,69 @@
+/*LIGHT AND DARK VERSIONS OF THE IMAGES*/
+[name="logo"] {
+	content:url("../images/kiwi-icon-dark.png");
+}
+
+.header-img {
+	background-image: url('../images/pc_with_test_run_small-dark.png');
+}
+
+
+/*COLOR PALETTE*/
+.primary {
+	background-color: #253d23;
+	color: #b8c1bf;
+}
+
+.primary a {
+	color: #b8c1bf;
+}
+
+.primary a:hover {
+	background-color: #b8c1bf;
+	color: #253d23;
+}
+
+.primary a.active {
+	background-color: #b8c1bf;
+	color: #253d23;
+}
+
+.primary input {
+	background-color: #cccccc;
+}
+
+.secondary {
+	background-color: #191e18;
+	color: #b8c1bf;
+}
+
+.secondary img {
+	/*background-color: #9e9e9e;*/
+}
+
+.accent-important {
+	background-color: #b8c1bf;
+	color: #21251b;
+}
+
+.accent-important-icon {
+	color: #b8c1bf;
+}
+
+.accent-medium {
+	color: #b8c1bf;
+}
+
+.accent-medium-icon {
+	color: #b8c1bf;
+}
+
+.accent-unimportant {
+	background-color: #253d23;
+	color: #e3edea;
+}
+
+.accent-unimportant-icon {
+	background-color: #253d23;
+	color: #e3edea;
+}

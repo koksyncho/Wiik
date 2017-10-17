@@ -1,0 +1,68 @@
+/*Fill in the fields corresponding to your wishes*/
+
+/*LIGHT AND DARK VERSIONS OF THE IMAGES*/
+[name="logo"] {
+	content:url("../images/kiwi-icon-???.png");
+}
+
+.header-img {
+	background-image: url('../images/pc_with_test_run_small-???.png');
+}
+
+
+/*COLOR PALETTE*/
+.primary {
+
+}
+
+.primary a {
+
+}
+
+.primary a:hover {
+
+}
+
+.primary a.active {
+
+}
+
+.primary input {
+
+}
+
+.secondary {
+
+}
+
+.secondary {
+
+}
+
+.secondary img {
+
+}
+
+.accent-important {
+
+}
+
+.accent-important-icon {
+
+}
+
+.accent-medium {
+
+}
+
+.accent-medium-icon {
+
+}
+
+.accent-unimportant {
+
+}
+
+.accent-unimportant-icon {
+
+}
