@@ -22,7 +22,10 @@ h3 {
 }
 
 html { font-size: 62.5%; }
-body { font-size: 1.8rem; }
+body {
+    font-size: 1.8rem;
+    background-color: #f6f6f6;
+}
 
 a{
     text-decoration: none;
@@ -179,6 +182,10 @@ ul.topnav li [name="q"] {
 
 /* Screenshots Section */
 
+.screenshots {
+    background-color: #f6f6f6;
+}
+
 .screenshot-title{
     padding: 2% 0;
     text-align: center;
@@ -197,14 +204,15 @@ ul.topnav li [name="q"] {
     position: absolute;
     top: 5rem;
     display: block;
-    width: 922px;
-    height: 450px;
+    width: 100%;
+    height: 80%;
     box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0, .3);
 }
 
 .shown{
     left: 0;
     transition: left .6s ease, transform .6s ease;
+    background-image
 }
 
 .hidden-left{
@@ -217,41 +225,44 @@ ul.topnav li [name="q"] {
 
 .img-wrapper{
     position: relative;
-    width: 922px;
-    height: 450px;
+    width: 90%;
     padding: 3rem 2rem;
+    padding-bottom: 68%;
     margin: auto;
     white-space: nowrap;
     overflow: hidden;
 }
 
 .img-index{
-    text-align: center;
+    /*text-align: center;*/
     font-size: 2.5rem;
-    padding: 2rem 0;
+    padding-bottom: 2rem;
+    float: left;
 }
 
 .arrow-left {
     display: block;
     position: relative;
-    left: 0;
+    /*left: 0;
     top: 25rem;
     width: 100%;
     line-height: 5rem;
-    text-align: center;
+    text-align: center;*/
     cursor: pointer;
+    float: left;
 }
 
 
 .arrow-right {
     display: block;
     position: relative;
-    left: 0;
+    /*left: 0;
     top: 25rem;
     width: 100%;
     line-height: 5rem;
-    text-align: center;
+    text-align: center;*/
     cursor: pointer;
+    float: left;
 }
 
 /* Footer Section */
